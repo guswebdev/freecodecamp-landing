@@ -1,36 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page de Producto</title>
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Font Awesome Icons -->
-    
-    <link rel="stylesheet" href="styles.css"></link>
-</head>
-<body>
-    <header id="header">
-      <img src="" id="header-img" alt="" />
+
+    <!-- Google Fonts Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts Lato -->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header container" class="header">
+      <figure class="container-logo">
+        <img src="assets/img/logo.png" id="header-img" alt="" />
+      </figure>
       <nav id="nav-bar">
-        <a href="#features" class="nav-link">Enlace 1</a>
-        <a href="#how-it-works" class="nav-link">Enlace 2</a>
-        <a href="#pricing" class="nav-link">Enlace 3</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
       </nav>
     </header>
     <main>
-      <section>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input type="email" id="email" name="email" placeholder="Enter your email" />
-          <input type="submit" id="submit" />
-        </form>
+      <section class="hero">
+        <div class="container">
+          <form
+            id="form"
+            class="form"
+            action="https://www.freecodecamp.com/email-submit"
+          >
+            <h2>Handcrafted, home-made masterpieces</h2>
+            <input
+              type="email"
+              id="email"
+              class="form-input"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <input value="Get Started" type="submit" id="submit" class="submit-form" />
+          </form>
+        </div>
       </section>
       <section id="features"></section>
       <section id="how-it-works"></section>
       <section id="pricing"></section>
-      <video src="" id="video">
+      <video src="" id="video"></video>
     </main>
-</body>
+  </body>
 </html>
